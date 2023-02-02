@@ -107,6 +107,7 @@ case $1 in
 	      3.2*) $2=ppc-linux-gcc32 ;;
 	      *)    $2=ppc-linux-gcc ;;
          esac ;;
+    powerpc64le-*-linux-gnu*) $2=ppc64le-linux-gcc ;;
     alpha*-*-linux-gnu*) $2=alpha-linux-gcc ;;
     sparc*-*-linux-gnu*) $2=sparc-linux-gcc ;;
     s390*-*-linux-gnu*) $2=s390-linux-gcc ;;
